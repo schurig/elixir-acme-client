@@ -2,6 +2,10 @@
 
 A Elixir client for the letsencrypt's ACME protocol.
 
+**Warning: not production ready yet!**
+
+Feel free to contribute :)
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
