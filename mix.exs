@@ -2,19 +2,24 @@ defmodule ExAcme.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :ex_acme,
-     version: "0.1.0",
-     elixir: "~> 1.3",
-     build_embedded: Mix.env == :prod,
-     start_permanent: Mix.env == :prod,
-     deps: deps()]
+    [
+      app: :ex_acme,
+      version: "0.1.0",
+      elixir: "~> 1.3",
+      build_embedded: Mix.env == :prod,
+      start_permanent: Mix.env == :prod,
+      deps: deps(),
+      preferred_cli_env: [
+        vcr: :test, "vcr.delete": :test, "vcr.check": :test, "vcr.show": :test
+      ]
+    ]
   end
 
   # Configuration for the OTP application
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger, :jose]]
+    [applications: [:logger, :jose, :httpoison]]
   end
 
   # Dependencies can be Hex packages:
@@ -29,6 +34,7 @@ defmodule ExAcme.Mixfile do
   defp deps do
     [
       {:jose, "~> 1.8"},
+      {:httpoison, "~> 0.9.0"},
       {:exvcr, "~> 0.7", only: :test}
     ]
   end
