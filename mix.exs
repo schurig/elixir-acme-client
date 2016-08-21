@@ -22,7 +22,7 @@ defmodule ExAcme.Mixfile do
   defp package do
     [
       files: ["lib", "mix.exs", "README.md", "LICENSE*", "CHANGELOG.md"],
-      maintainers: ["Martin Schurig"],
+      maintainers: ["Martin Schurig", "Sascha Brink"],
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/schurig/ex_acme"},
     ]
