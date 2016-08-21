@@ -24,7 +24,7 @@ defmodule ExAcme.Mixfile do
       files: ["lib", "mix.exs", "README.md", "LICENSE*", "CHANGELOG.md"],
       maintainers: ["Martin Schurig"],
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/schurig/ex-acme"},
+      links: %{"GitHub" => "https://github.com/schurig/ex_acme"},
     ]
   end
 
