@@ -38,7 +38,8 @@ defmodule ExAcme.Mixfile do
       {:httpoison, "~> 0.9.0"},
       {:exvcr, "~> 0.7", only: :test},
       {:credo, "~> 0.4.5", only: [:dev, :test]},
-      {:inch_ex, "~> 0.5.3", only: [:dev, :test, :docs]}
+      {:inch_ex, "~> 0.5.3", only: [:dev, :test, :docs]},
+      {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
 

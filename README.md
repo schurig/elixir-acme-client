@@ -1,4 +1,4 @@
-# ExAcme [![Build Status](https://travis-ci.org/schurig/ex-acme.svg?branch=master)](https://travis-ci.org/schurig/ex-acme) [![Inline docs](http://inch-ci.org/github/schurig/ex-acme.svg)](http://inch-ci.org/github/schurig/ex-acme) [![Deps Status](https://beta.hexfaktor.org/badge/all/github/schurig/ex-acme.svg)](https://beta.hexfaktor.org/github/schurig/ex-acme)
+# ExAcme [![Build Status](https://travis-ci.org/schurig/ex-acme.svg?branch=master)](https://travis-ci.org/schurig/ex-acme) [![Inline docs](http://inch-ci.org/github/schurig/ex-acme.svg)](http://inch-ci.org/github/schurig/ex-acme) [![Deps Status](https://beta.hexfaktor.org/badge/all/github/schurig/ex-acme.svg)](https://beta.hexfaktor.org/github/schurig/ex-acme) [![Hex.pm](https://img.shields.io/hexpm/v/ex-acme.svg?maxAge=3600)](https://hex.pm/packages/ex-acme)
 
 A Elixir client for the letsencrypt's ACME protocol.
 
